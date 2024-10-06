@@ -8,12 +8,4 @@
 			<conditionClass>RealisticDarkness.GameCondition_NoSunlightDark</conditionClass>		
 		</value>
 	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-    <xpath>Defs/GameConditionDef[defName="LongNight"]/conditionClass</xpath>
-    <value>
-      <conditionClass>RealisticDarkness.GameCondition_NoSunlightDark</conditionClass>
-    </value>
-  </Operation>
-
 </Patch>		
