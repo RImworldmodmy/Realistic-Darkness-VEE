@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Patch>	
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/GameConditionDef[defName = "Eclipse"]/conditionClass</xpath>
-		<value>
-			<conditionClass>RealisticDarkness.GameCondition_NoSunlightDark</conditionClass>		
-		</value>
-	</Operation>
-
 	<Operation Class="PatchOperationReplace">
     <xpath>Defs/GameConditionDef[defName="LongNight"]/conditionClass</xpath>
-    <value>
-      <conditionClass>RealisticDarkness.GameCondition_NoSunlightDark</conditionClass>
-    </value>
-  </Operation>
-<Operation Class="PatchOperationReplace">
-    <xpath>Defs/GameConditionDef[defName="UnnaturalDarkness"]/conditionClass</xpath>
     <value>
       <conditionClass>RealisticDarkness.GameCondition_NoSunlightDark</conditionClass>
     </value>
